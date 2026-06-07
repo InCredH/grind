@@ -3,6 +3,7 @@
     "name": "GRIND",
     "slug": "grind",
     "version": "1.0.0",
+    "newArchEnabled": false,
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
@@ -15,7 +16,9 @@
       },
       "package": "com.harsh.grind"
     },
-    "plugins": [],
+    "plugins": [
+      "expo-font"
+    ],
     "extra": {
       "eas": {
         "projectId": "3d086d96-8d17-43d0-beb6-b93e8ecd1e7c"
